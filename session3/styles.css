@@ -1,0 +1,15 @@
+/* element selector  */
+h1:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* id selector  */
+#para {
+  background-color: red;
+}
+
+/* class selector  */
+.green {
+  background-color: green;
+}

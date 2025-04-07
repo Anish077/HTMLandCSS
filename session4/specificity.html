@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Specificity</title>
+    <style>
+      /* inline > id > class > element */
+      h1 {
+        background-color: red;
+      }
+
+      .crio {
+        background-color: green;
+      }
+
+      #unique {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="crio" id="unique" style="background-color: cyan">CRIO</h1>
+  </body>
+</html>
